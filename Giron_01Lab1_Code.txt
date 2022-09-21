@@ -1,0 +1,27 @@
+using System;
+namespace GreetingApp
+{
+	public class GreetingProgram
+	{
+		public static void Main(string [] args)
+		{
+			string userName;
+			int courses;
+			double bPrice;
+
+			Console.Write("Enter Your Name: ");
+			userName = Console.ReadLine();
+			Console.Write("Enter The Total Number Of Your Enrolled Courses: ");
+			courses = Convert.ToInt32(Console.ReadLine());
+			Console.Write("Enter Th Price Of Your Favorit Book: ");
+			bPrice = Convert.ToDouble(Console.ReadLine());
+
+			Console.WriteLine("");
+			Console.WriteLine(userName);
+			Console.WriteLine(courses);
+			Console.WriteLine(bPrice);
+
+			Console.ReadKey();
+		}
+	}
+}
